@@ -149,3 +149,8 @@ cat /var/kerberos/krb5kdc/kadm5.acl
 cat /etc/krb5.conf
 
 #The files will look like this:
+
+# make the kerberos services autostart
+chkconfig kadmin on
+chkconfig krb5kdc on
+
